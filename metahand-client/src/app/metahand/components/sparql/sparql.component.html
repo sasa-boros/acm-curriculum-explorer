@@ -1,0 +1,14 @@
+<div class="sparql-container">
+      <h1>Execute SPARQL query:</h1>
+      <br>
+      <textarea type="text" [(ngModel)]="statement" class="sparql-text-area"></textarea>
+      <br>
+      <button (click)="executeStatement()">Execute</button>
+      <br>
+      <br>
+      <h1>Execution result:</h1>
+      <br>
+      {{result}}
+</div>
+
+
